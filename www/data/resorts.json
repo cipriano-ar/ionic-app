@@ -1,26 +1,25 @@
-{
-  "0": {
+[{
     "id": "1",
     "nombre": "Termas de Jahuel",
     "zona": "Centro",
-    "discapacitados": "si"
+    "discapacitados": "Sí"
   },
-  "1": {
+  {
     "id": "2",
     "nombre": "Termas Geometricas",
     "zona": "Sur",
-    "discapacitados": "no"
+    "discapacitados": "No"
   },
-  "2": {
+  {
     "id": "3",
     "nombre": "Termas de Chusmiza",
     "zona": "Norte",
-    "discapacitados": "no"
+    "discapacitados": "No"
   },
-  "3": {
+  {
     "id": "4",
     "nombre": "Termas de Nementue",
     "zona": "Sur",
-    "discapacitados": "si"
+    "discapacitados": "Sí"
   }
-}
+]

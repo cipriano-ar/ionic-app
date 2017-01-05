@@ -1,19 +1,19 @@
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope) {})
-
-.controller('ChatsCtrl', function($scope, Chats) {
-
-  $scope.chats = Chats.all();
-  $scope.remove = function(chat) {
-    Chats.remove(chat);
-  };
+// ResortsCtrl
+.controller('ResortsCtrl', function($scope, Resorts) {
+  $scope.Resorts = Resorts
+  $scope.remove = function(resort) {
+    Resorts.remove(resort);
+  }
 })
 
-.controller('DetalleCtrl', function($scope, $stateParams, Resorts) {
-  $scope.resort = Resorts.get($stateParams.resortId);
+// DetalleCtrl
+.controller('DetalleCtrl', function($scope, $state, Resorts) {
+  $scope.resort = Resorts.get($state.params.id)
 })
 
+// AccountCtrl
 .controller('AccountCtrl', function($scope) {
   $scope.settings = {
     enableFriends: true

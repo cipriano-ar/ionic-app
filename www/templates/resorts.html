@@ -1,0 +1,20 @@
+<ion-view view-title="Resorts">
+  <ion-content>
+    <ion-list>
+      <ion-item
+        ui-sref="tab.detalle({id: resort.id})"
+        class="item-remove-animate item-avatar item-icon-right"
+        ng-repeat="resort in Resorts.data" type="item-text-wrap">
+
+        <h2>{{resort.nombre}}</h2>
+        <p>{{resort.zona}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+        <ion-option-button class="button-assertive"
+          ng-click="Resorts.remove(resort)">
+          Borrar
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
