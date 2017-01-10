@@ -3,7 +3,16 @@ angular.module('starter', [
   'ionic',
   'starter.controllers',
   'starter.services',
+  /*'uiGmapgoogle-maps'*/
   ])
+
+// .config(function( uiGmapGoogleMapApiProvider) {
+//   uiGmapGoogleMapApiProvider.configure({
+//     key: "AIzaSyBlQK1M03oo-mKyMV-rgKQ4M87hl2HJR1Q",
+//     libraries: 'weather,geometry,visualization',
+//     v: '3.17',
+//   })
+// })
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
