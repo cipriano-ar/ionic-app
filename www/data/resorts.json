@@ -8,7 +8,11 @@
     "id": "2",
     "nombre": "Termas Geometricas",
     "zona": "Sur",
-    "discapacitados": "No"
+    "discapacitados": "No",
+    "coordenadas": {
+      "latitud": "-39.5008333",
+      "longitud": "-71.8736111111111"
+    }
   },
   {
     "id": "3",

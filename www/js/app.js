@@ -1,9 +1,19 @@
 // Ionic Starter App
 angular.module('starter', [
+  'uiGmapgoogle-maps',
   'ionic',
   'starter.controllers',
   'starter.services',
   ])
+
+.config(function(uiGmapGoogleMapApiProvider) {
+  uiGmapGoogleMapApiProvider.configure({
+    key: 'AIzaSyBlQK1M03oo-mKyMV-rgKQ4M87hl2HJR1Q',
+    v: '3.20',
+    libraries: 'weather,geometry,visualization',
+    china: true,
+  })
+})
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
