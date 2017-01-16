@@ -2,7 +2,11 @@
     "id": "1",
     "nombre": "Termas de Jahuel",
     "zona": "Centro",
-    "discapacitados": "Sí"
+    "discapacitados": "Sí",
+    "coordenadas": {
+      "latitud": "-32.6842117",
+      "longitud": "-70.5944951"
+    }
   },
   {
     "id": "2",
@@ -18,12 +22,20 @@
     "id": "3",
     "nombre": "Termas de Chusmiza",
     "zona": "Norte",
-    "discapacitados": "No"
+    "discapacitados": "No",
+    "coordenadas": {
+      "latitud": "-20.0722222",
+      "longitud": "-69.21694444444445"
+    }
   },
   {
     "id": "4",
-    "nombre": "Termas de Nementue",
+    "nombre": "Termas de Menetue",
     "zona": "Sur",
-    "discapacitados": "Sí"
+    "discapacitados": "Sí",
+    "coordenadas": {
+      "latitud": "-39.3311025",
+      "longitud": "-71.7144853"
+    }
   }
 ]

@@ -1,6 +1,4 @@
-angular.module('starter.services', [])
-
-// +++++++ RESORTS +++++++
+angular.module('starter.services')
 .service('Resorts', function Resorts($http) {
 
   this.data = []
@@ -28,10 +26,4 @@ angular.module('starter.services', [])
     this.data.splice(this.data.indexOf(resort), 1)
   }
 
-})
-// +++++++ MAPA +++++++
-.service('Mapa', function Mapa($http, uiGmapGoogleMapApi) {
-  uiGmapGoogleMapApi.then(function(maps) {
-
-  })
 })
