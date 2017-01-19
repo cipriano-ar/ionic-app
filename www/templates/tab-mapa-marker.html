@@ -1,0 +1,17 @@
+<ion-view view-title="Mapa">
+  <ion-content>
+    <ui-gmap-google-map class="mapa"
+      center="Mapa.options.center"
+      zoom="Mapa.options.zoom">
+      <ui-gmap-marker
+        ng-repeat="m in Marcadores.data"
+        coords="m.coords"
+        options="m.markerOptions"
+      >
+        <ui-gmap-window>
+          {{m.markerOptions.title}}
+        </ui-gmap-window>
+      </ui-gmap-marker>
+    </ui-gmap-google-map>
+  </ion-content>
+</ion-view>

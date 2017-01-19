@@ -4,8 +4,8 @@
     "zona": "Centro",
     "discapacitados": "Sí",
     "coordenadas": {
-      "latitud": "-32.6842117",
-      "longitud": "-70.5944951"
+      "latitude": "-32.6842117",
+      "longitude": "-70.5944951"
     }
   },
   {
@@ -14,8 +14,8 @@
     "zona": "Sur",
     "discapacitados": "No",
     "coordenadas": {
-      "latitud": "-39.5008333",
-      "longitud": "-71.8736111111111"
+      "latitude": "-39.5008333",
+      "longitude": "-71.8736111111111"
     }
   },
   {
@@ -24,8 +24,8 @@
     "zona": "Norte",
     "discapacitados": "No",
     "coordenadas": {
-      "latitud": "-20.0722222",
-      "longitud": "-69.21694444444445"
+      "latitude": "-20.0722222",
+      "longitude": "-69.21694444444445"
     }
   },
   {
@@ -34,8 +34,8 @@
     "zona": "Sur",
     "discapacitados": "Sí",
     "coordenadas": {
-      "latitud": "-39.3311025",
-      "longitud": "-71.7144853"
+      "latitude": "-39.3311025",
+      "longitude": "-71.7144853"
     }
   }
 ]

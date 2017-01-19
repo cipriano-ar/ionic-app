@@ -1,9 +1,18 @@
-<ion-view view-title="Account">
+<ion-view view-title="Mapa">
   <ion-content>
-    <ion-list>
-    <ion-toggle  ng-model="settings.enableFriends">
-        Enable Friends
-    </ion-toggle>
-    </ion-list>
+    <ui-gmap-google-map class="mapa"
+      center="Mapa.options.center"
+      zoom="Mapa.options.zoom">
+      <ui-gmap-markers
+        models='Marcadores.data'
+        coords="'coords'"
+        events="events"
+        options="'markerOptions'">
+        <ui-gmap-windows
+          >
+          <div ng-non-bindable>{{markerOptions.title}}</div>
+        </ui-gmap-windows>
+      </ui-gmap-markers>
+    </ui-gmap-google-map>
   </ion-content>
 </ion-view>

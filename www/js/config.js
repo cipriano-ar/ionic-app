@@ -1,5 +1,5 @@
 angular.module('starter')
-// ESTADOS APLICACION
+// ESTADOS
 .config(function( $stateProvider, $urlRouterProvider) {
   $stateProvider
     .state('tab', {

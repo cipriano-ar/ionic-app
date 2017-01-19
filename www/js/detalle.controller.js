@@ -4,16 +4,16 @@ angular.module('starter.controllers')
   $scope.Mapa = Mapa
   $scope.Mapa = {
     center: {
-      latitude: $scope.resort.coordenadas.latitud,
-      longitude: $scope.resort.coordenadas.longitud,
+      latitude: $scope.resort.coordenadas.latitude,
+      longitude: $scope.resort.coordenadas.longitude,
     },
     zoom: 16,
   }
   $scope.marcador = {
     id: $scope.resort.id,
     coords: {
-      latitude: $scope.resort.coordenadas.latitud,
-      longitude: $scope.resort.coordenadas.longitud,
+      latitude: $scope.resort.coordenadas.latitude,
+      longitude: $scope.resort.coordenadas.longitude,
     }
   }
 })
